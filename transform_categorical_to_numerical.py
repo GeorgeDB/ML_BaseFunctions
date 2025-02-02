@@ -22,3 +22,4 @@ def transform_categorical_to_numerical(df, columns_values_to_transform):
             df[column_name] = df[column_name].apply(lambda x: to_value if x == from_value else x)
 
     return df
+    
